@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reviews - Dhitya Electrical &amp; Electronics</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a class="brand" href="index.html" aria-label="Dhitya Electrical &amp; Electronics home">
+          <img class="brand-wordmark" src="assets/dhitya-wordmark.svg" alt="Dhitya Electrical &amp; Electronics" />
+        </a>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="reviews.html">Reviews</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section" id="reviews">
+        <div class="section-heading">
+          <p class="eyebrow">Customer Voice</p>
+          <h2>Reviews</h2>
+        </div>
+        <div class="review-layout">
+          <form class="review-form" id="reviewForm" novalidate>
+            <label>
+              Your Name
+              <input id="reviewName" type="text" placeholder="Name" required />
+              <span class="error-message"></span>
+            </label>
+            <fieldset class="star-rating-field">
+              Rating
+              <div class="star-rating" id="starRating" role="radiogroup" aria-label="Choose rating">
+                <button type="button" data-rating="1" aria-label="1 star">&#9733;</button>
+                <button type="button" data-rating="2" aria-label="2 stars">&#9733;</button>
+                <button type="button" data-rating="3" aria-label="3 stars">&#9733;</button>
+                <button type="button" data-rating="4" aria-label="4 stars">&#9733;</button>
+                <button type="button" data-rating="5" aria-label="5 stars">&#9733;</button>
+              </div>
+              <input id="reviewRating" type="hidden" required />
+              <span class="error-message"></span>
+            </fieldset>
+            <label>
+              Review
+              <textarea id="reviewText" rows="4" required></textarea>
+              <span class="error-message"></span>
+            </label>
+            <button class="secondary-button" type="submit">Submit Review</button>
+            <p class="form-note" id="reviewStatus" role="status"></p>
+          </form>
+          <div class="review-list" id="reviewList"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

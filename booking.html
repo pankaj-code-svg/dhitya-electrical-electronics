@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Now - Dhitya Electrical &amp; Electronics</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a class="brand" href="index.html" aria-label="Dhitya Electrical &amp; Electronics home">
+          <img class="brand-wordmark" src="assets/dhitya-wordmark.svg" alt="Dhitya Electrical &amp; Electronics" />
+        </a>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="reviews.html">Reviews</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section booking-band" id="booking">
+        <div class="booking-layout">
+          <div>
+            <p class="eyebrow">Required Details</p>
+            <h2>Book a Service</h2>
+            <p>
+              Fill your name, phone number, service area, full address, and
+              service. Booking will not confirm until all required details are
+              complete.
+            </p>
+            <p class="area-note">Services are available only for Thane West.</p>
+          </div>
+
+          <form class="booking-form" id="bookingForm" novalidate>
+            <label>
+              Name
+              <input id="customerName" name="customerName" type="text" autocomplete="name" required />
+              <span class="error-message"></span>
+            </label>
+
+            <label>
+              Contact no.
+              <span class="phone-input">
+                <span class="phone-prefix">+91</span>
+                <input
+                  id="customerPhone"
+                  name="customerPhone"
+                  type="tel"
+                  inputmode="numeric"
+                  autocomplete="tel"
+                  maxlength="10"
+                  required
+                />
+              </span>
+              <span class="error-message"></span>
+            </label>
+
+            <label>
+              Service Area
+              <select id="serviceArea" name="serviceArea" required>
+                <option value="">Choose your area</option>
+                <option value="Thane West">Thane West</option>
+                <option value="Outside Thane West">Outside Thane West</option>
+              </select>
+              <span class="error-message"></span>
+            </label>
+
+            <label>
+              Address
+              <textarea id="customerAddress" name="customerAddress" rows="4" required></textarea>
+              <span class="error-message"></span>
+            </label>
+
+            <label>
+              Service
+              <select id="serviceType" name="serviceType" required>
+                <option value="">Choose a service</option>
+                <option>TV Repairing</option>
+                <option>AC Repairing</option>
+                <option>Inverter Repairing</option>
+                <option>New Inverter/Battery Installation</option>
+                <option>Old Battery Replacement</option>
+                <option>Inverter Wiring</option>
+                <option>Small Electrical Work</option>
+              </select>
+              <span class="error-message"></span>
+            </label>
+
+            <button class="primary-button" type="submit">Confirm Booking</button>
+            <p class="form-note" id="bookingStatus" role="status"></p>
+            <div class="booking-loading" id="bookingLoading" hidden>
+              <div class="booking-spinner" aria-hidden="true"></div>
+              <p>Please wait. We are preparing your WhatsApp booking message.</p>
+              <small>Do not refresh this page.</small>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

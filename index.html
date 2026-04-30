@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dhitya Electrical &amp; Electronics</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a class="brand" href="index.html" aria-label="Dhitya Electrical &amp; Electronics home">
+          <img class="brand-wordmark" src="assets/dhitya-wordmark.svg" alt="Dhitya Electrical &amp; Electronics" />
+        </a>
+        <div class="nav-links">
+          <a href="services.html">Services</a>
+          <a href="reviews.html">Reviews</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">Repairing - Installation - Wiring</p>
+          <h1>Dhitya Electrical &amp; Electronics</h1>
+          <p>
+            Trusted local service for TV repair, AC repair, inverter repair,
+            battery installation, old battery replacement, inverter wiring,
+            house wiring, and small electrical work.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-button" href="services.html">View Services</a>
+            <a class="secondary-button" href="contact.html">Contact Us</a>
+          </div>
+          <div class="hero-stats" aria-label="Dhitya Electrical &amp; Electronics service highlights">
+            <div>
+              <strong>1000+</strong>
+              <span>Happy Customers</span>
+            </div>
+            <div>
+              <strong>Fast</strong>
+              <span>Local Support</span>
+            </div>
+            <div>
+              <strong>Trusted</strong>
+              <span>Repair Service</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="tool-board">
+            <div class="screen-icon"></div>
+            <div class="battery-icon">
+              <span></span>
+            </div>
+            <div class="wire-line"></div>
+            <div class="spark-dot"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <aside class="chat-widget" aria-label="Chat with Dhitya Electrical &amp; Electronics bot">
+      <button class="chat-greeting" id="chatGreeting" type="button">
+        Hello! Need help choosing a service?
+      </button>
+      <button class="chat-toggle" id="chatToggle" type="button">Chat</button>
+      <section class="chat-panel" id="chatPanel" hidden>
+        <header>
+          <strong>Dhitya Bot</strong>
+          <button id="chatClose" type="button" aria-label="Close chat">x</button>
+        </header>
+        <div class="chat-messages" id="chatMessages"></div>
+        <form class="chat-input" id="chatForm">
+          <input id="chatText" type="text" placeholder="Type your question..." autocomplete="off" />
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </aside>
+
+    <script src="script.js"></script>
+  </body>
+</html>
