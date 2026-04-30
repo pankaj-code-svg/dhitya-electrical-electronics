@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">Dhitya Electrical and Electronics logo</title>
+  <desc id="desc">A teal electrical logo with a stylized D, circuit line, and gold lightning bolt.</desc>
+  <rect width="96" height="96" rx="18" fill="#0f766e"/>
+  <path d="M26 22h20c16 0 27 11 27 26s-11 26-27 26H26V22Z" fill="none" stroke="#ffffff" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M46 16 30 50h16l-7 30 27-42H50l10-22H46Z" fill="#f2b705"/>
+  <path d="M61 68h9c5 0 8-3 8-8v-5" fill="none" stroke="#b9f3ee" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="78" cy="49" r="5" fill="#b9f3ee"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 96" role="img" aria-labelledby="title desc">
+  <title id="title">Dhitya Electrical and Electronics</title>
+  <desc id="desc">A teal and gold wordmark logo with an electrical bolt and circuit detail.</desc>
+  <rect x="4" y="10" width="76" height="76" rx="18" fill="#0f766e"/>
+  <path d="M27 29h17c14 0 24 9 24 19s-10 19-24 19H27V29Z" fill="none" stroke="#ffffff" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M46 20 31 51h15l-7 26 27-39H51l9-18H46Z" fill="#f2b705"/>
+  <path d="M66 68h9c5 0 8-3 8-8v-5" fill="none" stroke="#b9f3ee" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="83" cy="50" r="4" fill="#b9f3ee"/>
+  <text x="96" y="43" fill="#1d2530" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="800">Dhitya</text>
+  <text x="96" y="68" fill="#0a4f4a" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="800">Electrical &amp; Electronics</text>
+  <path d="M96 77h250" stroke="#f2b705" stroke-width="5" stroke-linecap="round"/>
+</svg>
